@@ -1,0 +1,143 @@
+body{
+    background: url('https://wallpapercave.com/wp/wp2162770.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 100vh;
+    margin: 0;
+    height:100%;
+    opacity: 1;
+    position: relative;
+    /* overflow-y: hidden; */
+}
+.nav{
+    /* display: flex;
+   padding-top:0px;
+   z-index: 10; */
+
+   display: flex;
+    padding-top: 30px; 
+    z-index: 10; 
+    position: relative;
+    top:90px;
+    /* margin-top: 150px; */
+}
+.icon-container {
+   position: relative;
+   display: inline-block;
+}
+.nav i{
+   display: inline-block;
+   cursor: pointer;
+   color:white;
+   /* margin-bottom: 45px; */
+   margin-bottom: 30px;
+   margin-left: 9px;
+}
+.navheading{
+   font-weight: 800;
+   font-size: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       visibility:hidden;
+       width: 120px; 
+       color: #fff;
+       text-align: center;
+       border-radius: 5px;
+       padding: 5px 0;
+       position: absolute;
+       z-index: 0;
+       /* bottom: 125%; Position above the icon */
+      
+       /* margin-left: -60px;Center the tooltip */
+       opacity: 0;
+       transition: opacity 0.3s;
+   }
+.navheading1{
+   top:-34px;
+   left:25px;
+}
+.navheading2{
+   top:15px;
+   left:14px;
+}
+.navheading3{
+   top: 65px;
+   left:12px;
+}
+.navheading4{
+   top:130px;
+   left:2px;
+}
+.navheading5{
+   top:185px;
+   left:20px;
+}
+.navheading6{
+   top:230px;
+   left:20px;
+}
+.icon-container:hover .navheading {
+       visibility: visible;
+       opacity: 1;
+}
+.nav ul li{
+   list-style-type: none;
+}
+.container{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    background-color: black;
+    opacity: 0.8;
+    color:white;
+    /* height:500px; */
+    width:600px;
+    z-index: 20;
+    
+    
+    /* margin-left:450px; */
+    /* top:-490px; */
+}
+.heading{
+    padding-top: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    margin-left: 100px;
+    width:400px;
+    height:40px;
+}
+button{
+    margin-left: 120px;
+    width:380px;
+    height:40px;
+    background-color: #f49d56;
+    /* background-color: #3586ff; */
+}
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.check{
+    width:15px;
+    height:15px;
+}
+.pass{
+    margin-left: 400px;
+    margin-top: -18px;
+    cursor: pointer;
+}
+.sign{
+    margin-left: 120px;
+}*/
+/* .container i{
+    width:90px;
+    aspect-ratio: 1;
+    /* margin-left: 300px; */
+    /* padding-top: 80px; */
+   /* color:#f49d56;
+} */

@@ -1,0 +1,221 @@
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    overflow-y: auto;
+} 
+.nav{
+    position: absolute;
+    margin-top:210px;
+    height:50px;
+    /* opacity:1; */
+}
+.nav i{
+    /* color:white; */
+    /* position: relative; */
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+
+.nav ul{
+    list-style: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+.nav ul li{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-right: 70px;
+    cursor: pointer;
+    /* z-index:-2; */
+}
+/* .nav ul li,
+.nav ul li:hover,
+.nav ul li:active,
+.nav ul li:focus {
+    cursor: pointer;
+} */
+/* .icons{
+    cursor: pointer;
+} */
+/* .fa-solid{
+    cursor:pointer;
+} */
+.nav i#home::after{
+    content:attr(Home);
+}
+.video-background{
+    position: absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    z-index: -1;
+    display: inline-block;
+}
+.video-background video{
+    /* position: absolute;
+    top:50%;
+    left:50%;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    transform: translate(-50%,-50%); */
+
+    position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 90%;
+  }
+div>video{
+    color:white;
+    position:relative;
+    left:40px;
+    top:400px;
+    /* z-index: ; */
+}
+.subscribe{
+    background-color: white;
+    border:2px solid white;
+    border-radius: 18px;
+    height:30px;
+    width:250px;
+    position: relative;
+    top:550px;
+    left:100px;
+    padding:10px;
+    cursor:pointer;
+}
+.subscribe:hover{
+    transform: scale(1.1);
+}
+.descr{
+    position: absolute;
+    bottom: 230px;
+    left:100px;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    /* margin-left: 100px; */
+}
+.text{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    margin-left:60px;
+    /* align-items: center; */
+    /* left:135px;
+    top:550px; */
+}
+
+.fa-subscribe{
+    position: absolute;
+    margin-left:22px;
+    margin-top: 4px;
+    /* left:110px;
+    top:550px; */
+}
+.about{
+    color:white;
+    margin-left:20px;
+    background-color: white;
+    margin-top:30px;
+} 
+
+.heading{
+    margin-left:50px;
+    margin-top: 170px;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+}
+.movies{
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+}
+#movie1{
+    width:275px;
+    height: 310px;  
+    z-index: 1;
+}
+#movie1:hover{
+    transform:scale(1.2);
+}
+#movie2{
+    position: relative;
+    height: 500px;    /* Set a more reasonable height */
+    width: 250px;
+    left:400px;
+    top:650px;
+    overflow: scroll; 
+
+    /* position:relative; */
+    /* height:500px;
+    width:250px;
+    overflow: auto;
+    margin-left: 100px;
+    top:600px; */
+}
+.heading{
+    color: black;
+    position: absolute;
+    top:670px;
+}
+/* .video1container{
+    position: relative;
+
+} */
+/* .textonvideo1{
+    position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+}  */
+#contain{
+    border:2px solid black;
+}
+.box{
+    bordeR:2px solid black;
+    width:100px;
+    aspect-ratio: 1;
+}
+@media (max-width: 1200px) {
+    .input-container {
+        width: 70%;
+        left: 20%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 60;
+    }
+}
